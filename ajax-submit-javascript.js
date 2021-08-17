@@ -4,10 +4,10 @@ jQuery("#submitBtn").submit(function(e) {
 	
 	jQuery("input,select,textarea").css('border','1px solid black');
 	jQuery('.mes').remove();
-    var url = jQuery(this).attr('action');
+    	var url = jQuery(this).attr('action');
 	var formData = new FormData(jQuery(this)[0]);
 
-    jQuery.ajax({
+    	jQuery.ajax({
 		
 		type: "POST",
 		url: url,
@@ -42,6 +42,5 @@ jQuery("#submitBtn").submit(function(e) {
 				
 			}             
 		}
-		
     });
 });
