@@ -1,2 +1,2 @@
-# ajax-submit-by-jquery
+# Ajax submit code by jQuery
 Ajax submit jquery code
